@@ -34,10 +34,47 @@
                 <h2>Get in Touch</h2>
                 <p>Have a question, concern, or feedback? We'd love to hear from you!</p>
                 
+                <div class="contact-form-wrapper">
+                    <h3>Send Us a Message</h3>
+                    <form class="contact-form" action="mailto:sheeko66931@hotmail.com" method="POST" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic...</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="account">Account Issue</option>
+                                <option value="premium">Premium Subscription</option>
+                                <option value="safety">Safety/Report Abuse</option>
+                                <option value="business">Business Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <p class="form-note">We typically respond within 24-48 hours.</p>
+                </div>
+                
                 <div class="contact-method">
                     <h3>Email Support</h3>
                     <p><strong>Email:</strong> <a href="mailto:sheeko66931@hotmail.com">sheeko66931@hotmail.com</a></p>
-                    <p>We typically respond within 24-48 hours.</p>
+                    <p>Prefer email? You can reach us directly at the address above.</p>
                 </div>
 
                 <div class="contact-method">
